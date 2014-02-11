@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>生日会</title>
+<script src="image/jquery-1.7.2.js" type="text/javascript"></script>
+<script>
+$(document).ready(function(){
+		$.ajax({
+			url: '/punish',
+			type: 'GET',			
+			success:function(data){
+				console.log(data);
+				$(".punish")[0].innerHTML=data;
+			}
+		});	
+})
+</script>
+</head>
+
+<body style="background:#d3d3d4 center top no-repeat; ">
+<div id="punish" style="width:1159px;height:514px;margin:140px auto 0 auto"> 
+</div>
+
+
+</body>
+</html>

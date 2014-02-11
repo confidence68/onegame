@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://192.168.98.2/svn/skynet"
+   name=""
+   revision="319"
+   last-author="haoyb"
+   url="https://192.168.98.2/svn/skynet/trunk/src/public"
+   uuid="5b5be07b-2513-f546-a3b3-4c851a594fa9"
+   committed-rev="319"
+   kind="dir"
+   committed-date="2013-10-09T10:12:15.362592Z"/>
+<entry
+   name="dati.html"
+   checksum="c621d1e585869d38592edb2e42fa71c6"
+   last-author="haoyb"
+   committed-rev="319"
+   text-time="2013-10-09T10:12:15.000000Z"
+   kind="file"
+   committed-date="2013-10-09T10:12:15.362592Z"/>
+<entry
+   name="image"
+   kind="dir"/>
+</wc-entries>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://192.168.98.2/svn/skynet"
+   name=""
+   revision="319"
+   last-author="haoyb"
+   url="https://192.168.98.2/svn/skynet/trunk/src/public/image"
+   uuid="5b5be07b-2513-f546-a3b3-4c851a594fa9"
+   committed-rev="319"
+   kind="dir"
+   committed-date="2013-10-09T10:12:15.362592Z"/>
+<entry
+   name="bg.jpg"
+   checksum="4448bb8f1b1ddf40468eb62b529a1a89"
+   last-author="haoyb"
+   committed-rev="319"
+   text-time="2013-10-09T10:12:15.000000Z"
+   kind="file"
+   committed-date="2013-10-09T10:12:15.362592Z"
+   prop-time="2013-10-09T10:16:10.000000Z"/>
+<entry
+   name="bg.psd"
+   checksum="c4078165f8b392426c903fada5804c3e"
+   last-author="haoyb"
+   committed-rev="319"
+   text-time="2013-10-09T10:12:15.000000Z"
+   kind="file"
+   committed-date="2013-10-09T10:12:15.362592Z"
+   prop-time="2013-10-09T10:16:10.000000Z"/>
+<entry
+   name="btn.png"
+   checksum="2877512a80170622451509c97f28e65f"
+   last-author="haoyb"
+   committed-rev="319"
+   text-time="2013-10-09T10:12:15.000000Z"
+   kind="file"
+   committed-date="2013-10-09T10:12:15.362592Z"
+   prop-time="2013-10-09T10:16:10.000000Z"/>
+<entry
+   name="daan.jpg"
+   checksum="d2dbf4a26758af4a6195c3e3f710b92e"
+   last-author="haoyb"
+   committed-rev="319"
+   text-time="2013-10-09T10:12:15.000000Z"
+   kind="file"
+   committed-date="2013-10-09T10:12:15.362592Z"
+   prop-time="2013-10-09T10:16:10.000000Z"/>
+<entry
+   name="jquery-1.7.2.js"
+   checksum="af693f9aea7dae36fb3bef4c9b6e56fb"
+   last-author="haoyb"
+   committed-rev="319"
+   text-time="2013-10-09T10:12:15.000000Z"
+   kind="file"
+   committed-date="2013-10-09T10:12:15.362592Z"/>
+<entry
+   name="xuanti.jpg"
+   checksum="6130979036e07ab9651eb4385cf999e3"
+   last-author="haoyb"
+   committed-rev="319"
+   text-time="2013-10-09T10:12:15.000000Z"
+   kind="file"
+   committed-date="2013-10-09T10:12:15.362592Z"
+   prop-time="2013-10-09T10:16:10.000000Z"/>
+</wc-entries>

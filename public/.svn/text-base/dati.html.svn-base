@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>兴安得力生日会答题系统</title>
+<script src="image/jquery-1.7.2.js" type="text/javascript"></script>
+<script>
+$(document).ready(function(){
+		$.ajax({
+			url: '/q_a',
+			type: 'GET',
+			dataType: 'json',
+			success:function(data){
+				$(".timu")[0].innerHTML=data.question;
+				$(".answerinner")[0].innerHTML=data.answer;
+			}
+		});
+		
+		$(".xuanti").live("click",function(){
+			window.location.reload();
+			})
+		
+		$(".answers").live("click",function(){
+			if(window.confirm("您已经答题了吗？")){
+				$(".answerinner").show();
+				
+				}
+			})
+})
+
+
+</script>
+<style>
+.timu{width:945px;height:68px;font-size:22px;font-weight:bold;font-family:"Microsoft YaHei";margin:116px 0px 0px 157px;float:left;}
+.answer{width:945px;height:68px;font-size:24px;font-weight:bold;font-family:"Microsoft YaHei";margin:40px 0px 0px 157px;float:left;}
+.xuanti{width:295px; height:75px;float:left;background:url(image/xuanti.jpg) no-repeat; cursor:pointer;}
+.answers{width:295px; height:75px;float:left;background:url(image/daan.jpg) no-repeat;margin-left:20px;cursor:pointer;}
+</style>
+</head>
+
+<body style="background:#d3d3d4 url(image/bg.jpg) center top no-repeat; ">
+<div style="width:1159px;height:514px;margin:140px auto 0 auto">
+  <div class="timu">11、你叫神魔名字啊 啊？  </div>
+  <div class="answer"><div class="answerinner" style="display:none"></div> </div>
+  <div style="width:620px;height:80px;float:left;margin:60px auto 0px 300px;">
+    <div class="xuanti"></div>
+    <div class="answers"></div> 
+  </div>
+</div>
+
+
+</body>
+</html>
